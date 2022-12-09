@@ -6,7 +6,7 @@ const ejs = require('ejs');
 const app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
-require('dotenv').config(); //import the dotenv config file
+require('dotenv').config(); //import the dotenv config files
 
 app.use(express.static('public'));
 app.set("view engine", "ejs"); 
